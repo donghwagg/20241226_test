@@ -14,14 +14,3 @@ st.header('저는 조주O씨를 좋아합니다 :woman-heart-man:')
 
 # Subheader 적용
 st.subheader('너무너무 신기하네요!! 열심히 공부해 볼게요!')
-
-
-st.title('데이터프레임도 넣을수 있고 신기방기')
-
-# DataFrame 생성
-dataframe = pd.DataFrame({
-    'first column': [1, 2, 3, 4],
-    'second column': [10, 20, 30, 40],
-})
-
-st.dataframe(dataframe, use_container_width=False)
